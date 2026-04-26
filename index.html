@@ -283,6 +283,125 @@
     animation: scrollPulse 2s ease-in-out infinite;
   }
 
+   /* ═══════════════════════════
+     SECTION · THE COUPLE
+  ═══════════════════════════ */
+  #couple {
+    padding: 88px 28px;
+    border-top: 0.5px solid var(--line);
+  }
+
+  .couple-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 48px;
+    position: relative;
+  }
+
+  .couple-grid::before {
+    content: '&';
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 28px;
+    color: var(--gold);
+    position: absolute;
+    left: 50%; top: 72px;
+    transform: translateX(-50%);
+    z-index: 2;
+    background: var(--cream);
+    padding: 0 6px;
+    line-height: 1;
+  }
+
+  .couple-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px 12px 28px;
+    border: 0.5px solid var(--line);
+    position: relative;
+  }
+
+  .couple-photo {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 16px;
+    border: 1px solid var(--line);
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .couple-photo img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .couple-photo-placeholder {
+    width: 100%; height: 100%;
+    background: linear-gradient(145deg, #EDE8E2, #E0D9D0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .couple-photo-placeholder svg {
+    width: 28px; height: 28px;
+    opacity: 0.3;
+  }
+
+  .couple-role {
+    font-size: 8px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+
+  .couple-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    margin-bottom: 14px;
+  }
+
+  .couple-parents {
+    border-top: 0.5px solid var(--line);
+    padding-top: 12px;
+    width: 100%;
+  }
+
+  .couple-parents-label {
+    font-size: 8px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--stone);
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .couple-parent-name {
+    font-size: 12px;
+    line-height: 1.8;
+    color: var(--ink);
+    font-weight: 300;
+  }
+
+  .couple-parent-name em {
+    display: block;
+    font-style: normal;
+    font-size: 10px;
+    color: var(--stone);
+    letter-spacing: 0.05em;
+  }
+
   /* ═══════════════════════════
      SECTION 2 · STORY
   ═══════════════════════════ */
