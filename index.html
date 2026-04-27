@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Ezra & Shelia</title>
+<title>Alexander & Sophia</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
@@ -281,125 +281,6 @@
     height: 40px;
     background: linear-gradient(to bottom, var(--gold), transparent);
     animation: scrollPulse 2s ease-in-out infinite;
-  }
-
-   /* ═══════════════════════════
-     SECTION · THE COUPLE
-  ═══════════════════════════ */
-  #couple {
-    padding: 88px 28px;
-    border-top: 0.5px solid var(--line);
-  }
-
-  .couple-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-top: 48px;
-    position: relative;
-  }
-
-  .couple-grid::before {
-    content: '&';
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: 28px;
-    color: var(--gold);
-    position: absolute;
-    left: 50%; top: 72px;
-    transform: translateX(-50%);
-    z-index: 2;
-    background: var(--cream);
-    padding: 0 6px;
-    line-height: 1;
-  }
-
-  .couple-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 24px 12px 28px;
-    border: 0.5px solid var(--line);
-    position: relative;
-  }
-
-  .couple-photo {
-    width: 96px;
-    height: 96px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 16px;
-    border: 1px solid var(--line);
-    position: relative;
-    flex-shrink: 0;
-  }
-
-  .couple-photo img {
-    width: 100%; height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  .couple-photo-placeholder {
-    width: 100%; height: 100%;
-    background: linear-gradient(145deg, #EDE8E2, #E0D9D0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-  }
-
-  .couple-photo-placeholder svg {
-    width: 28px; height: 28px;
-    opacity: 0.3;
-  }
-
-  .couple-role {
-    font-size: 8px;
-    letter-spacing: 0.28em;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 6px;
-  }
-
-  .couple-name {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.15;
-    margin-bottom: 14px;
-  }
-
-  .couple-parents {
-    border-top: 0.5px solid var(--line);
-    padding-top: 12px;
-    width: 100%;
-  }
-
-  .couple-parents-label {
-    font-size: 8px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--stone);
-    margin-bottom: 6px;
-    display: block;
-  }
-
-  .couple-parent-name {
-    font-size: 12px;
-    line-height: 1.8;
-    color: var(--ink);
-    font-weight: 300;
-  }
-
-  .couple-parent-name em {
-    display: block;
-    font-style: normal;
-    font-size: 10px;
-    color: var(--stone);
-    letter-spacing: 0.05em;
   }
 
   /* ═══════════════════════════
@@ -724,47 +605,337 @@
   .form-input[type="number"]::-webkit-outer-spin-button,
   .form-input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; }
 
-  /* Attendance toggle */
-  .toggle-group {
-    display: flex;
-    gap: 0;
-    border: 0.5px solid var(--ink);
+  /* ═══════════════════════════
+     SECTION · THE COUPLE
+  ═══════════════════════════ */
+  #couple {
+    padding: 88px 28px;
+    border-top: 0.5px solid var(--line);
   }
-  .toggle-btn {
-    flex: 1;
-    padding: 11px;
+
+  .couple-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 48px;
+    position: relative;
+  }
+
+  .couple-grid::before {
+    content: '&';
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 28px;
+    color: var(--gold);
+    position: absolute;
+    left: 50%; top: 72px;
+    transform: translateX(-50%);
+    z-index: 2;
+    background: var(--cream);
+    padding: 0 6px;
+    line-height: 1;
+  }
+
+  .couple-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    font-family: 'Jost', sans-serif;
+    padding: 24px 12px 28px;
+    border: 0.5px solid var(--line);
+    position: relative;
+  }
+
+  .couple-photo {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 16px;
+    border: 1px solid var(--line);
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .couple-photo img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .couple-photo-placeholder {
+    width: 100%; height: 100%;
+    background: linear-gradient(145deg, #EDE8E2, #E0D9D0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .couple-photo-placeholder svg {
+    width: 28px; height: 28px;
+    opacity: 0.3;
+  }
+
+  .couple-role {
+    font-size: 8px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+
+  .couple-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    margin-bottom: 14px;
+  }
+
+  .couple-parents {
+    border-top: 0.5px solid var(--line);
+    padding-top: 12px;
+    width: 100%;
+  }
+
+  .couple-parents-label {
+    font-size: 8px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--stone);
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .couple-parent-name {
+    font-size: 12px;
+    line-height: 1.8;
+    color: var(--ink);
+    font-weight: 300;
+  }
+
+  .couple-parent-name em {
+    display: block;
+    font-style: normal;
+    font-size: 10px;
+    color: var(--stone);
+    letter-spacing: 0.05em;
+  }
+
+  /* ═══════════════════════════
+     SECTION · WISHES
+  ═══════════════════════════ */
+  .wishes-wall {
+    margin-top: 36px;
+  }
+
+  .wish-card {
+    border-left: 2px solid var(--gold);
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    background: rgba(184,149,106,0.04);
+    animation: fadeUp 0.6s cubic-bezier(.16,1,.3,1) both;
+  }
+
+  .wish-name {
     font-size: 11px;
     font-weight: 400;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    cursor: pointer;
-    border: none;
-    background: transparent;
-    color: var(--stone);
-    transition: background 0.25s, color 0.25s;
+    color: var(--gold);
+    margin-bottom: 6px;
   }
-  .toggle-btn + .toggle-btn { border-left: 0.5px solid var(--ink); }
-  .toggle-btn.active {
+
+  .wish-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--ink);
+    font-weight: 300;
+  }
+
+  .wishes-empty {
+    text-align: center;
+    padding: 32px 0;
+    font-size: 13px;
+    color: var(--stone);
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  /* ═══════════════════════════
+     SECTION · CLOSING NOTE
+  ═══════════════════════════ */
+  #closing {
+    padding: 88px 36px;
+    text-align: center;
+    border-top: 0.5px solid var(--line);
+    position: relative;
+    overflow: hidden;
+  }
+
+  #closing::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none;
+  }
+
+  .closing-quote-mark {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 80px;
+    font-weight: 300;
+    color: var(--gold);
+    line-height: 0.5;
+    opacity: 0.35;
+    display: block;
+    margin-bottom: 28px;
+  }
+
+  .closing-note {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.7;
+    color: var(--ink);
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .closing-sig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .closing-sig-line {
+    width: 32px;
+    height: 0.5px;
+    background: var(--gold);
+  }
+
+  .closing-sig-names {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+  }
+
+  .closing-sig-names em {
+    font-style: italic;
+    color: var(--gold);
+  }
+
+  /* ═══════════════════════════
+     SECTION · GIFT INFO
+  ═══════════════════════════ */
+  #gift {
+    padding: 88px 32px;
     background: var(--ink);
     color: var(--cream);
   }
 
-  /* Meal select */
-  .form-select {
-    width: 100%;
-    background: transparent;
-    border: none;
-    border-bottom: 0.5px solid var(--ink);
-    padding: 8px 0;
-    font-family: 'Jost', sans-serif;
-    font-size: 15px;
+  #gift .section-label { color: var(--gold); opacity: 0.7; }
+
+  .gift-heading {
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
-    color: var(--ink);
-    outline: none;
-    -webkit-appearance: none;
+    font-size: 36px;
+    color: var(--cream);
+    text-align: center;
+    line-height: 1.1;
+    margin-bottom: 12px;
+  }
+
+  .gift-sub {
+    font-size: 13px;
+    color: rgba(247,243,238,0.5);
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 44px;
+  }
+
+  .gift-card {
+    border: 0.5px solid rgba(247,243,238,0.12);
+    padding: 24px 24px 20px;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .gift-card:last-of-type { margin-bottom: 0; }
+
+  .gift-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 2px; height: 100%;
+    background: var(--gold);
+  }
+
+  .gift-bank-name {
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 10px;
+  }
+
+  .gift-account-holder {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--cream);
+    margin-bottom: 4px;
+  }
+
+  .gift-account-number {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 0.12em;
+    color: rgba(247,243,238,0.7);
+    margin-bottom: 16px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .copy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: transparent;
+    border: 0.5px solid rgba(247,243,238,0.2);
+    color: rgba(247,243,238,0.55);
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 8px 14px;
     cursor: pointer;
+    transition: border-color 0.25s, color 0.25s;
+  }
+  .copy-btn:hover { border-color: var(--gold); color: var(--gold); }
+  .copy-btn svg { width: 11px; height: 11px; flex-shrink: 0; }
+
+  .gift-note {
+    font-size: 12px;
+    color: rgba(247,243,238,0.35);
+    text-align: center;
+    margin-top: 28px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
   }
 
   .form-textarea {
@@ -830,6 +1001,161 @@
     font-size: 13px;
     color: var(--stone);
     line-height: 1.7;
+  }
+
+  /* ═══════════════════════════
+     SECTION · CLOSING NOTE
+  ═══════════════════════════ */
+  #closing {
+    padding: 88px 32px;
+    text-align: center;
+    border-top: 0.5px solid var(--line);
+    position: relative;
+  }
+
+  .closing-quote-mark {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 120px;
+    line-height: 0.6;
+    color: var(--gold);
+    opacity: 0.18;
+    display: block;
+    margin-bottom: 16px;
+    font-weight: 300;
+    user-select: none;
+  }
+
+  .closing-note {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.75;
+    color: var(--ink);
+    max-width: 320px;
+    margin: 0 auto 44px;
+  }
+
+  .closing-sig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .closing-sig-line {
+    width: 40px;
+    height: 0.5px;
+    background: var(--gold);
+  }
+
+  .closing-sig-names {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+  }
+  .closing-sig-names em {
+    font-style: italic;
+    color: var(--gold);
+  }
+
+  /* ═══════════════════════════
+     SECTION · GIFT
+  ═══════════════════════════ */
+  #gift {
+    padding: 88px 32px;
+    background: var(--ink);
+    color: var(--cream);
+  }
+
+  #gift .section-label { color: var(--gold); opacity: 0.7; }
+
+  .gift-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 38px;
+    text-align: center;
+    line-height: 1.1;
+    color: var(--cream);
+    margin-bottom: 16px;
+  }
+
+  .gift-sub {
+    font-size: 13px;
+    color: rgba(247,243,238,0.55);
+    text-align: center;
+    line-height: 1.75;
+    margin-bottom: 44px;
+  }
+
+  .gift-card {
+    border: 0.5px solid rgba(247,243,238,0.15);
+    padding: 28px;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .gift-card:last-of-type { margin-bottom: 0; }
+  .gift-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 2px; height: 100%;
+    background: var(--gold);
+  }
+
+  .gift-bank-name {
+    font-size: 9px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 10px;
+  }
+
+  .gift-account-holder {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--cream);
+    margin-bottom: 6px;
+  }
+
+  .gift-account-number {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 0.12em;
+    color: rgba(247,243,238,0.85);
+    margin-bottom: 18px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .copy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 16px;
+    border: 0.5px solid rgba(247,243,238,0.25);
+    background: transparent;
+    color: rgba(247,243,238,0.65);
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .copy-btn:hover { border-color: var(--gold); color: var(--gold); }
+  .copy-btn.copied { border-color: var(--gold); color: var(--gold); }
+  .copy-btn svg { flex-shrink: 0; }
+
+  .gift-note {
+    font-size: 12px;
+    color: rgba(247,243,238,0.4);
+    text-align: center;
+    margin-top: 32px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
   }
 
   /* ═══════════════════════════
@@ -1117,73 +1443,70 @@
   </p> -->
 </section>
 
-<!-- ═══ RSVP ═══ -->
-<section id="rsvp">
-  <span class="section-label reveal">Kindly Reply</span>
-  <h2 class="rsvp-heading reveal reveal-d1">Will you<br>join us?</h2>
-  <p class="rsvp-sub reveal reveal-d2">Please respond by 1 October 2025</p>
+<!-- ═══ CLOSING NOTE ═══ -->
+<section id="closing">
+  <span class="closing-quote-mark reveal">"</span>
 
-  <div id="rsvp-form-wrap" class="reveal reveal-d3">
-    <form id="rsvp-form" onsubmit="submitRSVP(event)">
+  <p class="closing-note reveal reveal-d1">
+    Your presence at our celebration<br>
+    is the greatest gift of all.<br>
+    We are so grateful to share<br>
+    this moment with the people<br>
+    we love most in this world.
+  </p>
 
-      <div class="form-group">
-        <label class="form-label">Full Name</label>
-        <input type="text" class="form-input" placeholder="Your full name" required>
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">Email Address</label>
-        <input type="email" class="form-input" placeholder="your@email.com" required>
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">Number of Guests</label>
-        <input type="number" class="form-input" placeholder="1" min="1" max="5" required>
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">Attendance</label>
-        <div class="toggle-group">
-          <button type="button" class="toggle-btn active" onclick="setAttendance(this, 'yes')">Joyfully Accepts</button>
-          <button type="button" class="toggle-btn" onclick="setAttendance(this, 'no')">Regretfully Declines</button>
-        </div>
-        <input type="hidden" id="attendance-val" value="yes">
-      </div>
-
-      <div class="form-group" id="meal-group">
-        <label class="form-label">Meal Preference</label>
-        <select class="form-select form-input">
-          <option value="">Select a preference</option>
-          <option>Meat &amp; Seafood</option>
-          <option>Vegetarian</option>
-          <option>Vegan</option>
-          <option>Halal</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">Dietary Restrictions or Notes</label>
-        <textarea class="form-textarea" placeholder="Any allergies or special requests…"></textarea>
-      </div>
-
-      <button type="submit" class="submit-btn">Send Response</button>
-    </form>
+  <div class="closing-sig reveal reveal-d2">
+    <div class="closing-sig-line"></div>
+    <p class="closing-sig-names">Ezra <em>&amp;</em> Shelia</p>
+    <p style="font-size:11px; letter-spacing:0.18em; text-transform:uppercase; color:var(--stone);">25 · June · 2026</p>
   </div>
+</section>
 
-  <div class="rsvp-success" id="rsvp-success">
-    <div class="success-icon">
-      <svg viewBox="0 0 20 20" fill="none">
-        <path d="M4 10l4.5 4.5L16 6" stroke="#B8956A" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- ═══ GIFT INFO ═══ -->
+<section id="gift">
+  <span class="section-label reveal">Wedding Gift</span>
+  <h2 class="gift-heading reveal reveal-d1">A gift,<br>if you wish</h2>
+  <p class="gift-sub reveal reveal-d2">
+    Your presence truly means everything to us.<br>
+    For those who wish to give, a transfer<br>
+    to the accounts below is warmly appreciated.
+  </p>
+
+  <div class="gift-card reveal reveal-d3">
+    <p class="gift-bank-name">BCA · Groom</p>
+    <p class="gift-account-holder">Ezra Indrawan Selly</p>
+    <p class="gift-account-number">1234 5678 9012</p>
+    <button class="copy-btn" onclick="copyAccount(this, '123456789012')">
+      <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="3.5" y="0.5" width="7" height="7" rx="0.5" stroke="currentColor" stroke-width="0.8"/>
+        <path d="M0.5 3.5H2.5V10.5H9.5V8.5" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
-    </div>
-    <h3>Thank you!</h3>
-    <p>Your response has been received.<br>We can't wait to celebrate with you.</p>
+      Copy Number
+    </button>
   </div>
+
+  <div class="gift-card reveal reveal-d4">
+    <p class="gift-bank-name">Mandiri · Bride</p>
+    <p class="gift-account-holder">Shelia Mona Sari</p>
+    <p class="gift-account-number">9876 5432 1098</p>
+    <button class="copy-btn" onclick="copyAccount(this, '987654321098')">
+      <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="3.5" y="0.5" width="7" height="7" rx="0.5" stroke="currentColor" stroke-width="0.8"/>
+        <path d="M0.5 3.5H2.5V10.5H9.5V8.5" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Copy Number
+    </button>
+  </div>
+
+  <p class="gift-note reveal">
+    Please include your name in the transfer note<br>
+    so we know who to thank. 🤍
+  </p>
 </section>
 
 <!-- ═══ FOOTER ═══ -->
 <footer>
-  <p class="footer-names">Ezra &amp; Shelia</p>
+  <p class="footer-names">Alexander &amp; Sophia</p>
   <p class="footer-date">15 · XI · 2025</p>
 </footer>
 
@@ -1205,26 +1528,21 @@
 
   // Page title
   document.title = hasName
-    ? 'Invitation for ' + displayName + ' — Ezra & Shelia'
-    : 'Ezra & Shelia — Wedding Invitation';
+    ? 'Invitation for ' + displayName + ' — Alexander & Sophia'
+    : 'Alexander & Sophia — Wedding Invitation';
 
   // Cover greeting
   const greetingEl = document.getElementById('cover-greeting');
   document.getElementById('cover-name-inline').textContent = displayName;
   if (hasName) greetingEl.style.display = '';
 
-  // Pre-fill RSVP name field
-  if (hasName) {
-    const nameInput = document.querySelector('#rsvp-form input[type="text"]');
-    if (nameInput) nameInput.value = displayName;
-  }
+  // Pre-fill name (no wishes form anymore, kept for future use)
 
   /* ── ENVELOPE OPEN ── */
   function openEnvelope() {
     const env = document.getElementById('envelope');
     env.classList.add('opening');
     setTimeout(() => { env.style.display = 'none'; }, 850);
-    // Trigger reveals after envelope closes
     setTimeout(startReveal, 400);
   }
 
@@ -1241,32 +1559,24 @@
     document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
   }
 
-  /* ── ATTENDANCE TOGGLE ── */
-  function setAttendance(btn, val) {
-    document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById('attendance-val').value = val;
-    document.getElementById('meal-group').style.display = val === 'yes' ? 'block' : 'none';
-  }
-
-  /* ── RSVP SUBMIT ── */
-  function submitRSVP(e) {
-    e.preventDefault();
-    const wrap = document.getElementById('rsvp-form-wrap');
-    const success = document.getElementById('rsvp-success');
-    if (hasName) {
-      document.querySelector('.rsvp-success p').innerHTML =
-        'Thank you, ' + displayName + '.<br>Your response has been received.<br>We can\'t wait to celebrate with you.';
-    }
-    wrap.style.transition = 'opacity 0.4s';
-    wrap.style.opacity = '0';
-    setTimeout(() => {
-      wrap.style.display = 'none';
-      success.style.display = 'block';
-      success.style.opacity = '0';
-      success.style.transition = 'opacity 0.6s';
-      requestAnimationFrame(() => { success.style.opacity = '1'; });
-    }, 400);
+  /* ── COPY ACCOUNT NUMBER ── */
+  function copyAccount(btn, number) {
+    navigator.clipboard.writeText(number).then(() => {
+      const orig = btn.innerHTML;
+      btn.classList.add('copied');
+      btn.innerHTML = `<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:11px;height:11px"><path d="M2 5.5l2.5 2.5L9 3" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/></svg> Copied!`;
+      setTimeout(() => { btn.innerHTML = orig; btn.classList.remove('copied'); }, 2500);
+    }).catch(() => {
+      // Fallback for older browsers
+      const ta = document.createElement('textarea');
+      ta.value = number;
+      ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select(); document.execCommand('copy');
+      document.body.removeChild(ta);
+      btn.textContent = 'Copied!';
+      setTimeout(() => location.reload(), 2500);
+    });
   }
 </script>
 
